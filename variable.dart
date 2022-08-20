@@ -5,7 +5,7 @@
 void main() {
   //define a string
   //define Built in type
-  // variable = literal 
+  // variable = literal
   String name = "rajesh"; // only string can be strored
   int number = 2; // only can store int without floating point
   double pie = 3.14; // only float can be saved here
@@ -25,4 +25,12 @@ void main() {
   //  interpolation
 
   print("hello ${name + lastName}"); // interpolation
+
+  // we cant use unassigned variable in our dart code without null-saftey---> will learn later
+  String course;
+  print(course); // will give an error because course is not assigned // 
+  // we can use course variable in javascript that will return undefined
+  // but in dart first assign value to course to access 
+  // we can assign null value to course variable to avoid error on code
+  
 }
